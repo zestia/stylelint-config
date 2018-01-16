@@ -1,0 +1,26 @@
+{
+  "name": "@zestia/stylelint-config",
+  "version": "1.0.0",
+  "description": "Stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zestia/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig"
+  ],
+  "author": "Zestia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zestia/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/zestia/stylelint-config",
+  "peerDependencies": {
+    "stylelint": ">= 8"
+  }
+}
