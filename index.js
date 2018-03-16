@@ -65,6 +65,9 @@ module.exports = {
     'declaration-block-semicolon-space-before': 'never',
     'declaration-block-single-line-max-declarations': 1,
     'declaration-block-trailing-semicolon': 'always',
+    'declaration-property-value-blacklist': {
+      'font-size': ['13.5px']
+    },
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always-multi-line',
     'block-closing-brace-space-before': 'always-single-line',
