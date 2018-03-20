@@ -66,7 +66,8 @@ module.exports = {
     'declaration-block-single-line-max-declarations': 1,
     'declaration-block-trailing-semicolon': 'always',
     'declaration-property-value-blacklist': {
-      'font-size': ['13.5px']
+      'font-size': ['13.5px'],
+      'font-weight': ['500']
     },
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always-multi-line',
