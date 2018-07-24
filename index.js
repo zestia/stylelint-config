@@ -116,6 +116,7 @@ module.exports = {
     'at-rule-name-case': 'lower',
     'at-rule-name-space-after': 'always-single-line',
     'at-rule-semicolon-newline-after': 'always',
+    'at-rule-blacklist': ['extend'],
     'comment-empty-line-before': 'always',
     'indentation': [2, {
       indentInsideParens: 'once-at-root-twice-in-block'
