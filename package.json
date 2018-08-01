@@ -1,6 +1,6 @@
 {
   "name": "@zestia/stylelint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Stylelint config",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/zestia/stylelint-config",
   "dependencies": {
-    "stylelint-declaration-use-variable": "^1.6.0",
-    "stylelint-order": "^0.8.0",
+    "stylelint-declaration-use-variable": "^1.7.0",
+    "stylelint-order": "^0.8.1",
     "stylelint-selector-bem-pattern": "^2.0.0"
   },
   "peerDependencies": {

@@ -13,16 +13,33 @@ module.exports = {
       }
     },
     'sh-waqar/declaration-use-variable': [
-      ['/color/', 'z-index', 'line-height']
+      [
+        '/color/',
+        'z-index',
+        'line-height',
+        {
+          ignoreValues: [
+            '/^darken/',
+            '/^lighten/',
+            '/^rgba/',
+            'inherit',
+            'transparent'
+          ]
+        }
+      ]
     ],
-    'order/order': [{
-      type: 'at-rule',
-      name: 'include'
-    }, {
-    	type: 'at-rule',
-      name: 'include',
-    	hasBlock: true
-    }, 'declarations'],
+    'order/order': [
+      {
+        type: 'at-rule',
+        name: 'include'
+      },
+      {
+        type: 'at-rule',
+        name: 'include',
+        hasBlock: true
+      },
+      'declarations'
+    ],
     'color-no-hex': true,
     'color-hex-case': 'lower',
     'color-hex-length': 'short',
@@ -77,17 +94,23 @@ module.exports = {
     'selector-attribute-brackets-space-inside': 'never',
     'selector-attribute-operator-space-after': 'never',
     'selector-attribute-operator-space-before': 'never',
-    'selector-class-pattern': ['^[a-z0-9-]+$', {
-      resolveNestedSelectors: true
-    }],
+    'selector-class-pattern': [
+      '^[a-z0-9-]+$',
+      {
+        resolveNestedSelectors: true
+      }
+    ],
     'selector-combinator-space-after': 'always',
     'selector-combinator-space-before': 'always',
     'selector-id-pattern': '^[a-z0-9-]+$',
     'selector-max-compound-selectors': 5,
     'selector-max-id': 0,
-    'selector-no-qualifying-type': [true, {
-      ignore: ['attribute']
-    }],
+    'selector-no-qualifying-type': [
+      true,
+      {
+        ignore: ['attribute']
+      }
+    ],
     'selector-max-type': 0,
     'selector-max-universal': 0,
     'selector-pseudo-class-case': 'lower',
@@ -102,9 +125,12 @@ module.exports = {
     'selector-list-comma-newline-after': 'always',
     'selector-list-comma-space-after': 'always-single-line',
     'selector-list-comma-space-before': 'never',
-    'rule-empty-line-before': ['always-multi-line', {
-      except: ['first-nested']
-    }],
+    'rule-empty-line-before': [
+      'always-multi-line',
+      {
+        except: ['first-nested']
+      }
+    ],
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
     'media-feature-range-operator-space-after': 'always',
@@ -118,13 +144,19 @@ module.exports = {
     'at-rule-semicolon-newline-after': 'always',
     'at-rule-blacklist': ['extend'],
     'comment-empty-line-before': 'always',
-    'indentation': [2, {
-      indentInsideParens: 'once-at-root-twice-in-block'
-    }],
+    indentation: [
+      2,
+      {
+        indentInsideParens: 'once-at-root-twice-in-block'
+      }
+    ],
     'max-empty-lines': 1,
-    'max-line-length': [80, {
-      ignore: ['non-comments']
-    }],
+    'max-line-length': [
+      80,
+      {
+        ignore: ['non-comments']
+      }
+    ],
     'max-nesting-depth': 3,
     'no-duplicate-selectors': true,
     'no-eol-whitespace': true,
