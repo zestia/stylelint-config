@@ -70,6 +70,7 @@ module.exports = {
     'property-no-unknown': true,
     'property-no-vendor-prefix': true,
     'keyframe-declaration-no-important': true,
+    'keyframes-name-pattern': /^[a-z0-9-]+$/,
     'declaration-bang-space-after': 'never',
     'declaration-bang-space-before': 'always',
     'declaration-colon-space-after': 'always',
@@ -91,6 +92,7 @@ module.exports = {
     'block-closing-brace-space-before': 'always-single-line',
     'block-opening-brace-newline-after': 'always-multi-line',
     'block-opening-brace-space-after': 'always-single-line',
+    'block-opening-brace-space-before': null,
     'selector-attribute-brackets-space-inside': 'never',
     'selector-attribute-operator-space-after': 'never',
     'selector-attribute-operator-space-before': 'never',
@@ -162,6 +164,10 @@ module.exports = {
     'no-eol-whitespace': true,
     'no-extra-semicolons': true,
     'no-invalid-double-slash-comments': true,
-    'no-duplicate-at-import-rules': true
+    'no-duplicate-at-import-rules': true,
+    'no-descending-specificity': null,
+    'no-missing-end-of-source-newline': true,
+    'no-empty-source': null,
+    'linebreaks': 'unix'
   }
 };
