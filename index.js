@@ -8,7 +8,7 @@ module.exports = {
     'plugin/selector-bem-pattern': {
       componentName: '^[a-z0-9-]+$',
       componentSelectors: {
-        initial: '^\\.{componentName}(?:[\\.a-z0-9-\\[\\]\\*\\=\\^]+)?$',
+        initial: '^\\.{componentName}(?:[\\.a-z0-9-\\[\\]\\*\\=\\^\']+)?$',
         combined: '.*'
       }
     },
@@ -54,7 +54,7 @@ module.exports = {
     'function-name-case': 'lower',
     'function-parentheses-space-inside': 'never-single-line',
     'function-whitespace-after': 'always',
-    'number-leading-zero': 'never',
+    'number-leading-zero': 'always',
     'number-max-precision': 3,
     'number-no-trailing-zeros': true,
     'length-zero-no-unit': true,
@@ -87,7 +87,7 @@ module.exports = {
       'font-size': ['13.5px'],
       'font-weight': ['500']
     },
-    'block-closing-brace-newline-after': 'always',
+    'block-closing-brace-newline-after': null,
     'block-closing-brace-newline-before': 'always-multi-line',
     'block-closing-brace-space-before': 'always-single-line',
     'block-opening-brace-newline-after': 'always-multi-line',
@@ -102,6 +102,7 @@ module.exports = {
         resolveNestedSelectors: true
       }
     ],
+    'selector-attribute-quotes': 'always',
     'selector-combinator-space-after': 'always',
     'selector-combinator-space-before': 'always',
     'selector-id-pattern': '^[a-z0-9-]+$',
@@ -142,15 +143,13 @@ module.exports = {
     'media-query-list-comma-space-after': 'always-single-line',
     'media-query-list-comma-space-before': 'never',
     'at-rule-name-case': 'lower',
-    'at-rule-name-space-after': 'always-single-line',
+    'at-rule-name-space-after': 'always',
+    'at-rule-semicolon-space-before': 'never',
     'at-rule-semicolon-newline-after': 'always',
     'at-rule-blacklist': ['extend'],
-    'comment-empty-line-before': 'always',
+    'comment-empty-line-before': null,
     indentation: [
-      2,
-      {
-        indentInsideParens: 'once-at-root-twice-in-block'
-      }
+      2
     ],
     'max-empty-lines': 1,
     'max-line-length': [
@@ -168,6 +167,6 @@ module.exports = {
     'no-descending-specificity': null,
     'no-missing-end-of-source-newline': true,
     'no-empty-source': null,
-    'linebreaks': 'unix'
+    // 'linebreaks': 'unix'
   }
 };
