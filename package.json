@@ -1,6 +1,6 @@
 {
   "name": "@zestia/stylelint-config",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "Stylelint config",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "stylelint",
-    "stylelintconfig"
+    "stylelintconfig",
+    "prettier"
   ],
   "author": "Zestia",
   "license": "ISC",
@@ -21,8 +22,12 @@
   },
   "homepage": "https://github.com/zestia/stylelint-config",
   "dependencies": {
+    "prettier": "^1.15.2",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-recommended": "^2.1.0",
     "stylelint-declaration-use-variable": "^1.7.0",
     "stylelint-order": "^1.0.0",
+    "stylelint-prettier": "^1.0.4",
     "stylelint-selector-bem-pattern": "^2.0.0"
   },
   "peerDependencies": {
