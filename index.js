@@ -50,7 +50,6 @@ module.exports = {
         combined: '.*'
       }
     },
-    'prettier/prettier': true,
     'property-no-vendor-prefix': true,
     'selector-class-pattern': [
       '^[a-z0-9-]+$',
