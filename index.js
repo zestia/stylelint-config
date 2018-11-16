@@ -7,8 +7,7 @@ module.exports = {
   ],
   extends: [
     'stylelint-config-recommended',
-    'stylelint-prettier/recommended',
-    'stylelint-config-prettier'
+    'stylelint-prettier/recommended'
   ],
   rules: {
     'at-rule-no-unknown': [true, {
