@@ -11,42 +11,6 @@ module.exports = {
     'stylelint-config-prettier'
   ],
   rules: {
-    'prettier/prettier': true,
-    'plugin/selector-bem-pattern': {
-      componentName: '^[a-z0-9-]+$',
-      componentSelectors: {
-        initial: '^\\.{componentName}|\\[.*{componentName}.*\\].*$',
-        combined: '.*'
-      }
-    },
-    'sh-waqar/declaration-use-variable': [
-      [
-        '/color/',
-        'z-index',
-        'line-height',
-        {
-          ignoreValues: [
-            '/^darken/',
-            '/^lighten/',
-            '/^rgba/',
-            'inherit',
-            'transparent'
-          ]
-        }
-      ]
-    ],
-    'order/order': [
-      {
-        type: 'at-rule',
-        name: 'include'
-      },
-      {
-        type: 'at-rule',
-        name: 'include',
-        hasBlock: true
-      },
-      'declarations'
-    ],
     'at-rule-no-unknown': [true, {
       ignoreAtRules: ['function', 'if', 'else', 'each', 'include', 'mixin']
     }],
@@ -67,6 +31,26 @@ module.exports = {
     'no-descending-specificity': null, // enable me soon
     'no-missing-end-of-source-newline': true,
     'number-max-precision': 3,
+    'order/order': [
+      {
+        type: 'at-rule',
+        name: 'include'
+      },
+      {
+        type: 'at-rule',
+        name: 'include',
+        hasBlock: true
+      },
+      'declarations'
+    ],
+    'plugin/selector-bem-pattern': {
+      componentName: '^[a-z0-9-]+$',
+      componentSelectors: {
+        initial: '^\\.{componentName}|\\[.*{componentName}.*\\].*$',
+        combined: '.*'
+      }
+    },
+    'prettier/prettier': true,
     'property-no-vendor-prefix': true,
     'selector-class-pattern': [
       '^[a-z0-9-]+$',
@@ -81,6 +65,22 @@ module.exports = {
     'selector-pseudo-element-colon-notation': 'double',
     'selector-type-case': 'lower',
     'shorthand-property-no-redundant-values': true,
+    'sh-waqar/declaration-use-variable': [
+      [
+        '/color/',
+        'z-index',
+        'line-height',
+        {
+          ignoreValues: [
+            '/^darken/',
+            '/^lighten/',
+            '/^rgba/',
+            'inherit',
+            'transparent'
+          ]
+        }
+      ]
+    ],
     'unit-blacklist': ['rem', 'em'],
     'value-keyword-case': 'lower'
   }
