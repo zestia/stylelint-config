@@ -15,3 +15,11 @@ This config includes:
 * `stylelint-selector-bem-pattern` for a simpler bem-like naming convention
 * `stylelint-declaration-use-variable` to enforce variables
 * `stylelint-order` to enforce the order of certain rules
+
+<hr>
+
+Related repos:
+
+* https://github.com/zestia/stylelint-config
+* https://github.com/zestia/eslint-config
+* https://github.com/zestia/ember-template-lint-plugin
