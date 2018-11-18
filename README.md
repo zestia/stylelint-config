@@ -23,3 +23,4 @@ Related repos:
 * https://github.com/zestia/stylelint-config
 * https://github.com/zestia/eslint-config
 * https://github.com/zestia/ember-template-lint-plugin
+* https://github.com/zestia/prettier-config
