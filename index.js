@@ -6,7 +6,7 @@ module.exports = {
     'stylelint-prettier'
   ],
   extends: [
-    'stylelint-config-recommended',
+    'stylelint-config-standard',
     'stylelint-prettier/recommended'
   ],
   rules: {
@@ -14,7 +14,6 @@ module.exports = {
       ignoreAtRules: ['function', 'if', 'else', 'each', 'include', 'mixin']
     }],
     'at-rule-blacklist': ['extend'],
-    'color-hex-length': 'short',
     'color-no-hex': true,
     'declaration-block-single-line-max-declarations': 1,
     'declaration-no-important': true,
@@ -23,12 +22,9 @@ module.exports = {
       'font-weight': ['500']
     },
     'font-family-name-quotes': 'always-where-required',
-    'function-name-case': 'lower',
     'keyframes-name-pattern': /^[a-z0-9-]+$/,
-    'length-zero-no-unit': true,
     'max-nesting-depth': 3,
     'no-descending-specificity': null, // enable me soon
-    'no-missing-end-of-source-newline': true,
     'number-max-precision': 3,
     'order/order': [
       {
@@ -60,8 +56,6 @@ module.exports = {
     'selector-max-type': 0,
     'selector-max-universal': 0,
     'selector-no-qualifying-type': [true, { ignore: ['attribute'] }],
-    'selector-pseudo-element-colon-notation': 'double',
-    'selector-type-case': 'lower',
     'shorthand-property-no-redundant-values': true,
     'sh-waqar/declaration-use-variable': [
       [
