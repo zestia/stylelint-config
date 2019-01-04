@@ -9,7 +9,6 @@ module.exports = {
 
 This config includes:
 
-* `stylelint-config-recommended` for minimal recommended defaults
 * `stylelint-config-standard` for a set of community lint rules around best practices and catching errors
 * `stylelint-prettier` for a set of community lint rules around pretty code
 * `stylelint-config-prettier` for turning off stylelint pretty-code rules that could conflict with prettier
