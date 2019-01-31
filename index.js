@@ -45,6 +45,7 @@ module.exports = {
         combined: '.*'
       }
     },
+    'property-blacklist': ['overflow-x', 'overflow-y'],
     'property-no-vendor-prefix': true,
     'selector-class-pattern': [
       '^[a-z0-9-]+$',
