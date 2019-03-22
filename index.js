@@ -65,9 +65,7 @@ module.exports = {
         'line-height',
         {
           ignoreValues: [
-            '/^darken/',
-            '/^lighten/',
-            '/^rgba/',
+            '/[\w-]+\(.*?\)/',
             'inherit',
             'transparent'
           ]
