@@ -22,13 +22,13 @@
   },
   "homepage": "https://github.com/zestia/stylelint-config",
   "dependencies": {
-    "stylelint-config-prettier": "^5.0.0",
-    "stylelint-config-recommended": "^2.1.0",
-    "stylelint-config-standard": "^18.2.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-standard": "^18.3.0",
     "stylelint-declaration-use-variable": "^1.7.0",
-    "stylelint-order": "^2.1.0",
-    "stylelint-prettier": "^1.0.6",
-    "stylelint-selector-bem-pattern": "^2.0.0"
+    "stylelint-order": "^3.0.0",
+    "stylelint-prettier": "^1.1.1",
+    "stylelint-selector-bem-pattern": "^2.1.0"
   },
   "peerDependencies": {
     "prettier": ">=1.16.4",
