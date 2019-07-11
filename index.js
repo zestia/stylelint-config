@@ -60,12 +60,14 @@ module.exports = {
     'sh-waqar/declaration-use-variable': [
       [
         '/color/',
+        '/shadow/',
         'font-family',
         'z-index',
         'line-height',
         {
           ignoreValues: [
-            '/[a-z-]+\(.*?\)/',
+            '/\\$/',
+            '/colou?r/',
             'inherit',
             'transparent'
           ]
