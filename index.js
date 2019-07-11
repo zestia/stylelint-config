@@ -1,3 +1,5 @@
+const pattern = '^[a-z0-9-_]+$';
+
 module.exports = {
   plugins: [
     'stylelint-selector-bem-pattern',
@@ -22,7 +24,7 @@ module.exports = {
       'font-weight': ['500']
     },
     'font-family-name-quotes': 'always-where-required',
-    'keyframes-name-pattern': /^[a-z0-9-]+$/,
+    'keyframes-name-pattern': pattern,
     'max-nesting-depth': 3,
     'no-descending-specificity': null, // enable me soon
     'number-max-precision': 3,
@@ -39,19 +41,16 @@ module.exports = {
       'declarations'
     ],
     'plugin/selector-bem-pattern': {
-      componentName: '^[a-z0-9-]+$',
+      componentName: pattern,
       componentSelectors: {
-        initial: '^\\.{componentName}|\\[.*{componentName}.*\\].*$',
+        initial: '^\\.{componentName}',
         combined: '.*'
       }
     },
     'property-blacklist': ['overflow-x', 'overflow-y'],
     'property-no-vendor-prefix': true,
-    'selector-class-pattern': [
-      '^[a-z0-9-]+$',
-      { resolveNestedSelectors: true }
-    ],
-    'selector-id-pattern': '^[a-z0-9-]+$',
+    'selector-class-pattern': [ pattern, { resolveNestedSelectors: true } ],
+    'selector-id-pattern': pattern,
     'selector-max-compound-selectors': 5,
     'selector-max-id': 0,
     'selector-max-type': 0,
