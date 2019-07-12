@@ -18,7 +18,6 @@ module.exports = {
     'at-rule-blacklist': ['extend'],
     'color-no-hex': true,
     'color-hex-length': 'long',
-    'declaration-block-single-line-max-declarations': 1,
     'declaration-no-important': true,
     'declaration-property-value-blacklist': {
       'font-size': ['13.5px'],
