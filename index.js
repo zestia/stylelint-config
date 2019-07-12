@@ -61,7 +61,8 @@ module.exports = {
     'sh-waqar/declaration-use-variable': [
       [
         '/color/',
-        '/shadow/',
+        'box-shadow',
+        'border',
         'font-family',
         'z-index',
         'line-height',
@@ -69,8 +70,9 @@ module.exports = {
           ignoreValues: [
             '/\\$/',
             '/colou?r/',
-            'inherit',
-            'transparent'
+            '/inherit/',
+            '/transparent/',
+            '/none/'
           ]
         }
       ]
