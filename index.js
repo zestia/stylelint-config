@@ -21,7 +21,10 @@ module.exports = {
     'declaration-no-important': true,
     'declaration-property-value-blacklist': {
       'font-size': ['13.5px'],
-      'font-weight': ['500']
+      'font-weight': [
+        '400', // Use normal
+        '500' // Use medium mixin
+      ]
     },
     'font-family-name-quotes': 'always-where-required',
     'keyframes-name-pattern': pattern,
