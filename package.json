@@ -4,7 +4,8 @@
   "description": "Stylelint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,6 @@
     "stylelint": ">=9.10.1"
   },
   "devDependencies": {
-    "release-it": "^12.4.3"
+    "release-it": "12.4.3"
   }
 }
