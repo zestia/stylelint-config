@@ -12,20 +12,10 @@ module.exports = {
     'stylelint-prettier/recommended'
   ],
   rules: {
-    'at-rule-no-unknown': [true, {
-      ignoreAtRules: ['function', 'if', 'else', 'each', 'include', 'mixin', 'return', 'for']
-    }],
     'at-rule-blacklist': ['extend'],
     'color-no-hex': true,
     'color-hex-length': 'long',
     'declaration-no-important': true,
-    'declaration-property-value-blacklist': {
-      'font-size': ['13.5px'],
-      'font-weight': [
-        '400', // Use normal
-        '500' // Use medium mixin
-      ]
-    },
     'font-family-name-quotes': 'always-where-required',
     'keyframes-name-pattern': pattern,
     'max-nesting-depth': 3,
