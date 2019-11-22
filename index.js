@@ -74,6 +74,7 @@ module.exports = {
             '/\\$/',
             '/colou?r/',
             '/inherit/',
+            '/initial/',
             '/transparent/',
             '/none/'
           ]
