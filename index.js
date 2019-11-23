@@ -19,6 +19,7 @@ module.exports = {
     'color-no-hex': true,
     'color-hex-length': 'long',
     'declaration-no-important': true,
+    'font-family-name-quotes': null,
     'keyframes-name-pattern': pattern,
     'max-nesting-depth': 3,
     'no-descending-specificity': null, // enable me soon

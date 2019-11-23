@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.30
+
+- Specifically disable font-family-name-quotes
+
 ## 2.0.29
 
 - Remove font-family-name-quotes due to incompatibility with scopes
