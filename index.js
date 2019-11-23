@@ -13,13 +13,12 @@ module.exports = {
   ],
   rules: {
     'at-rule-no-unknown': [true, {
-      ignoreAtRules: ['function', 'if', 'else', 'each', 'include', 'mixin', 'return', 'for', 'use']	
+      ignoreAtRules: ['function', 'if', 'else', 'each', 'include', 'mixin', 'return', 'for', 'use']
     }],
     'at-rule-blacklist': ['extend'],
     'color-no-hex': true,
     'color-hex-length': 'long',
     'declaration-no-important': true,
-    'font-family-name-quotes': 'always-where-required',
     'keyframes-name-pattern': pattern,
     'max-nesting-depth': 3,
     'no-descending-specificity': null, // enable me soon

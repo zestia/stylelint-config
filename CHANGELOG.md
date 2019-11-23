@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.29
+
+- Remove font-family-name-quotes due to incompatibility with scopes
+
 ## 2.0.28
 
 - Add unknown at rule back
