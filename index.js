@@ -12,6 +12,9 @@ module.exports = {
     'stylelint-prettier/recommended'
   ],
   rules: {
+    'at-rule-no-unknown': [true, {
+      ignoreAtRules: ['function', 'if', 'else', 'each', 'include', 'mixin', 'return', 'for', 'use']	
+    }],
     'at-rule-blacklist': ['extend'],
     'color-no-hex': true,
     'color-hex-length': 'long',

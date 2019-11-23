@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.28
+
+- Add unknown at rule back
+
+## 2.0.27
+
+- Re-release due to NPM issues
+
 ## 2.0.26
 
 - Remove unknown at rule
