@@ -57,6 +57,7 @@ module.exports = {
       [
         '/color/',
         'box-shadow',
+        'text-shadow',
         'border',
         'font-family',
         'z-index',

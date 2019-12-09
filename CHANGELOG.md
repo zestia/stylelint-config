@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.31
+
+- Make sure a variable is used for text-shadow
+
 ## 2.0.30
 
 - Specifically disable font-family-name-quotes
