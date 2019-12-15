@@ -7,7 +7,7 @@ The rules are based on community standards, with a few extra ones specific to Ze
 ## Installation
 
 ```
-npm install --save @zestia/stylelint-config
+npm install --save-dev @zestia/stylelint-config
 ```
 
 ## Setup
