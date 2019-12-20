@@ -43,7 +43,6 @@ module.exports = {
         combined: '.*'
       }
     },
-    'property-blacklist': ['overflow-x', 'overflow-y'],
     'property-no-vendor-prefix': true,
     'selector-class-pattern': [ pattern, { resolveNestedSelectors: true } ],
     'selector-id-pattern': pattern,

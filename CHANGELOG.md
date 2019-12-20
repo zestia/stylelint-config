@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.32
+
+- Remove overflow rules specific to a particular project
+
 ## 2.0.31
 
 - Make sure a variable is used for text-shadow
