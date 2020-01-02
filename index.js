@@ -15,7 +15,7 @@ module.exports = {
     'at-rule-no-unknown': [true, {
       ignoreAtRules: ['function', 'if', 'else', 'each', 'include', 'mixin', 'return', 'for', 'use']
     }],
-    'at-rule-blacklist': ['extend'],
+    'at-rule-blacklist': ['extend', 'import'],
     'color-no-hex': true,
     'color-hex-length': 'long',
     'declaration-no-important': true,

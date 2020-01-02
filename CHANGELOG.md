@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.33
+
+- Add `@import` to list of denied 'at' rules. `@use` should be used instead.
+
 ## 2.0.32
 
 - Remove overflow rules specific to a particular project
