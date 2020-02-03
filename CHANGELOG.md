@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.34
+
+- Upgrade dependencies
+
 ## 2.0.33
 
 - Add `@import` to list of denied 'at' rules. `@use` should be used instead.
