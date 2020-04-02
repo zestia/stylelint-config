@@ -36,6 +36,6 @@
     "stylelint": ">=9.10.1"
   },
   "devDependencies": {
-    "release-it": "^12.4.3"
+    "release-it": "^13.5.1"
   }
 }
