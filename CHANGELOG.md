@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.37
+
+- Upgrade dependencies
+
 ## 2.0.36
 
 - Upgrade dependencies
