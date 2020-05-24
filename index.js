@@ -2,12 +2,21 @@ const pattern = '^[a-z0-9-_]+$';
 
 module.exports = {
   plugins: [
+    // Use a loose BEM convention
     'stylelint-selector-bem-pattern',
+    // Enforce using a variable for certain rules
     'stylelint-declaration-use-variable',
+    // Make sure CSS is ordered in a certain way
     'stylelint-order',
+    // Runs prettier as a stylelint rule
     'stylelint-prettier'
   ],
-  extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
+  extends: [
+    // Use the community Standard rule set
+    'stylelint-config-standard',
+    // Turns off stylelint rules that could conflict with prettier
+    'stylelint-prettier/recommended'
+  ],
   rules: {
     'at-rule-blacklist': [
       // Disable @extend in favour of @mixin
