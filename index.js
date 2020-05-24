@@ -21,7 +21,7 @@ module.exports = {
     'at-rule-blacklist': [
       // Disable @extend in favour of @mixin
       'extend',
-      // Disable @import in favour of @user
+      // Disable @import in favour of @use
       'import'
     ],
     // Colours should always reference a variable
