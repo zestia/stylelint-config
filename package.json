@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prettier": "prettier '**/*.{js,json,md}' --write",
     "release": "release-it"
   },
   "repository": {
@@ -32,10 +34,13 @@
     "stylelint-selector-bem-pattern": "^2.1.0"
   },
   "peerDependencies": {
-    "prettier": ">=1.16.4",
     "stylelint": ">=9.10.1"
   },
   "devDependencies": {
-    "release-it": "^13.5.8"
+    "release-it": "^13.6.1",
+    "eslint": "^7.1.0",
+    "prettier": "^2.0.5",
+    "@zestia/eslint-config": "^2.0.31",
+    "@zestia/prettier-config": "^1.0.1"
   }
 }

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.38
+
+- Upgrade dependencies
+- Add comments as to why rules are present
+- Remove `unit-blacklist` (was project specific)
+- Remove `value-keyword-case` (now a Standard default)
+
 ## 2.0.37
 
 - Upgrade dependencies
