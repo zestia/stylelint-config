@@ -3,6 +3,8 @@
 ## 2.0.38
 
 - Upgrade dependencies
+- Add prettier config
+- Add eslint config
 - Add comments as to why rules are present
 - Remove `unit-blacklist` (was project specific)
 - Remove `value-keyword-case` (now a Standard default)
