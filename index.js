@@ -18,7 +18,7 @@ module.exports = {
     'stylelint-prettier/recommended'
   ],
   rules: {
-    // Standard disables unknown rules, we want to allow basic SCSS ones
+    // Standard disables unknown @ rules, we want to allow basic SCSS ones
     'at-rule-no-unknown': [
       true,
       {
