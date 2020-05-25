@@ -18,6 +18,20 @@ module.exports = {
     'stylelint-prettier/recommended'
   ],
   rules: {
+    // Standard disables unknown rules, we want to allow basic SCSS ones
+    'at-rule-no-unknown': [true, {
+       ignoreAtRules: [
+         'function',
+         'if',
+         'else',
+         'each',
+         'include',
+         'mixin',
+         'return',
+         'for',
+         'use'
+        ]
+    }]
     'at-rule-blacklist': [
       // Disable @extend in favour of @mixin
       'extend',
