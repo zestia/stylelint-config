@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.41
+
+- Upgrade dependencies
+
 ## 2.0.40
 
 - Upgrade dependencies
