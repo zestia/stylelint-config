@@ -35,7 +35,7 @@ module.exports = {
         ]
       }
     ],
-    'at-rule-blacklist': [
+    'at-rule-disallowed-list': [
       // Disable @extend in favour of @mixin
       'extend',
       // Disable @import in favour of @use
