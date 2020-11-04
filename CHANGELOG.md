@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.44
+
+- Upgrade dependencies
+
 ## 2.0.43
 
 - Change `at-rule-blacklist` to `at-rule-disallowed-list`
