@@ -89,7 +89,7 @@ module.exports = {
     // No need to specify redundant values
     'shorthand-property-no-redundant-values': true,
     // Enforce the use of a variable for these properties
-    // to provide consistancy.
+    // to provide consistency.
     'sh-waqar/declaration-use-variable': [
       [
         '/color/',
