@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.46
+
+- Upgrade dependencies
+
 ## 2.0.45
 
 - Upgrade dependencies
