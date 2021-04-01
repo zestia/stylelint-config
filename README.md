@@ -1,6 +1,6 @@
 # @zestia/stylelint-config
 
-This package provides linting rules for our CSS and SCSS.
+This package provides linting rules for CSS and SCSS.
 
 The rules are based on community standards, with a few extra ones specific to Zestia.
 
