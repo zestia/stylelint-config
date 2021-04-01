@@ -15,9 +15,7 @@ npm install --save-dev @zestia/stylelint-config
 1. Create the following file `.stylelintrc.js`
 
    ```javascript
-   module.exports = {
-     extends: '@zestia/stylelint-config'
-   };
+   module.exports = require('@zestia/stylelint-config');
    ```
 
 2. Add the following to `scripts` in `package.json`

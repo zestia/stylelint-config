@@ -33,9 +33,6 @@
     "stylelint-prettier": "^1.2.0",
     "stylelint-selector-bem-pattern": "^2.1.0"
   },
-  "peerDependencies": {
-    "stylelint": ">=13.12.0"
-  },
   "devDependencies": {
     "@zestia/eslint-config": "^3.0.6",
     "@zestia/prettier-config": "^1.0.4",
