@@ -93,24 +93,24 @@ module.exports = {
     'sh-waqar/declaration-use-variable': [
       [
         '/color/',
-        'box-shadow',
-        'text-shadow',
         'border',
+        'box-shadow',
         'font-family',
-        'z-index',
         'line-height',
+        'text-shadow',
+        'z-index',
         {
           ignoreValues: [
-            '0',
+            // Used a variable!
             '/\\$/',
-            '/colou?r/',
-            '/inherit/',
-            '/initial/',
-            '/transparent/',
-            '/none/'
+            // Used our colour function
+            '/colour\\(/',
+            // As good as a variable
+            '/inherit|initial/',
+            // No need for a variable
+            '/0|transparent|none/'
           ]
         }
       ]
     ]
-  }
 };
