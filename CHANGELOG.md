@@ -3,6 +3,7 @@
 ## 3.0.0
 
 - Replaced `stylelint-declaration-use-variable` with `stylelint-declaration-strict-value` due to it being deprecated.
+- Adds `stylelint-scss` to enforce a consistent pattern for dollar variables and mixin names.
 
 ## 2.0.47
 

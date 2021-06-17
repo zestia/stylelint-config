@@ -4,6 +4,7 @@ const number = '/[0-9]+[a-z]{0,}/';
 
 module.exports = {
   plugins: [
+    'stylelint-scss',
     // Use a loose BEM convention
     'stylelint-selector-bem-pattern',
     // Enforce using a variable for certain rules
@@ -20,27 +21,19 @@ module.exports = {
     'stylelint-prettier/recommended'
   ],
   rules: {
-    // Standard disables unknown @ rules, we want to allow basic SCSS ones
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: [
-          'function',
-          'if',
-          'else',
-          'each',
-          'include',
-          'mixin',
-          'return',
-          'for',
-          'use'
-        ]
-      }
-    ],
+    // Turn off stylelint unknown at-rules, because it doesn't know about scss ones (see below)
+    'at-rule-no-unknown': null,
+    // Prevent unknown scss at-rules (see above)
+    'scss/at-rule-no-unknown': true,
+    // Enforce a consistent pattern for variable names
+    'scss/dollar-variable-pattern': slug,
+    // Enforce a consistent pattern for mixin names
+    'scss/at-mixin-pattern': slug,
+    // Disallow certain at rules
     'at-rule-disallowed-list': [
-      // Disable @extend in favour of @mixin
+      // Disallow @extend in favour of @mixin
       'extend',
-      // Disable @import in favour of @use
+      // Disallow @import in favour of @use
       'import'
     ],
     // Colours should always reference a variable
