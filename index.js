@@ -4,14 +4,15 @@ const number = '/[0-9]+[a-z]{0,}/';
 
 module.exports = {
   plugins: [
+    // For scss specific stylelint rules
     'stylelint-scss',
-    // Use a loose BEM convention
+    // For a loose BEM convention
     'stylelint-selector-bem-pattern',
-    // Enforce using a variable for certain rules
+    // For using a variable or function for certain rules
     'stylelint-declaration-strict-value',
-    // Make sure CSS is ordered in a certain way
+    // For ordering of certain rules
     'stylelint-order',
-    // Runs prettier as a stylelint rule
+    // For ensuring css is pretty
     'stylelint-prettier'
   ],
   extends: [
