@@ -1,11 +1,13 @@
-const pattern = '^[a-z0-9-_]+$';
+const slug = '^[a-z0-9-_]+$';
+const colour = '/inherit|initial|transparent|none/';
+const number = '/[0-9]+[a-z]{0,}/';
 
 module.exports = {
   plugins: [
     // Use a loose BEM convention
     'stylelint-selector-bem-pattern',
     // Enforce using a variable for certain rules
-    'stylelint-declaration-use-variable',
+    'stylelint-declaration-strict-value',
     // Make sure CSS is ordered in a certain way
     'stylelint-order',
     // Runs prettier as a stylelint rule
@@ -64,18 +66,18 @@ module.exports = {
     ],
     // Use a loose BEM naming convention by @define'ing a namespace
     'plugin/selector-bem-pattern': {
-      componentName: pattern,
+      componentName: slug,
       componentSelectors: {
         initial: '^\\.{componentName}',
         combined: '.*'
       }
     },
     // Use a loose naming convention for animation keyframe names
-    'keyframes-name-pattern': pattern,
+    'keyframes-name-pattern': slug,
     // Use a loose BEM naming convention for class names
-    'selector-class-pattern': [pattern, { resolveNestedSelectors: true }],
+    'selector-class-pattern': [slug, { resolveNestedSelectors: true }],
     // Use a loose naming convention for ID selectors
-    'selector-id-pattern': pattern,
+    'selector-id-pattern': slug,
     // Disallow vendor prefixes, these should be added by autoprefixer
     'property-no-vendor-prefix': true,
     // Try to avoid complex selectors
@@ -90,27 +92,26 @@ module.exports = {
     'shorthand-property-no-redundant-values': true,
     // Enforce the use of a variable for these properties
     // to provide consistency.
-    'sh-waqar/declaration-use-variable': [
+    'scale-unlimited/declaration-strict-value': [
       [
-        '/color/',
-        'border',
+        '/color/', // background-color, border-color, color, etc.
         'box-shadow',
         'font-family',
         'line-height',
         'text-shadow',
-        'z-index',
-        {
-          ignoreValues: [
-            // Used a variable!
-            '/\\$/',
-            // Used our colour function
-            '/colour\\(/',
-            // As good as a variable
-            '/inherit|initial/',
-            // No need for a variable
-            '/0|transparent|none/'
-          ]
+        'z-index'
+      ],
+      {
+        expandShorthand: true,
+        ignoreValues: {
+          '/color/': colour,
+          'box-shadow': ['inset', number, colour],
+          'font-family': 'inherit',
+          'line-height': ['0', 'inherit'],
+          'text-shadow': [number, colour],
+          'z-index': '0'
         }
-      ]
+      }
     ]
+  }
 };

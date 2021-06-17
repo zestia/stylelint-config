@@ -36,7 +36,7 @@ npm run lint:css
 - `stylelint-prettier` adds prettier as a stylelint rule
 - `stylelint-config-prettier` for turning off stylelint rules that could conflict with prettier
 - `stylelint-selector-bem-pattern` for a simpler bem-like naming convention
-- `stylelint-declaration-use-variable` to enforce variables
+- `stylelint-declaration-strict-value` to enforce variables (for a consistent colour palette etc)
 - `stylelint-order` to enforce the order of certain rules
 
 ## Related repos
