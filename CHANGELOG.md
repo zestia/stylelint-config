@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.1
+
+- Upgrade dependencies
+
 ## 3.0.0
 
 - Replaced `stylelint-declaration-use-variable` with `stylelint-declaration-strict-value` due to it being deprecated.
