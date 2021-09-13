@@ -1,6 +1,6 @@
 {
   "name": "@zestia/stylelint-config",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Stylelint config",
   "main": "index.js",
   "scripts": {
