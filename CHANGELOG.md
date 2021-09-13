@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.2
+
+- Ignore css keywords for rules that require a variable
+
 ## 3.0.1
 
 - Upgrade dependencies

@@ -1,5 +1,6 @@
 const slug = '^[a-z0-9-_]+$';
-const colour = '/inherit|initial|transparent|none/';
+const keyword = '/inherit|initial|revert|unset/';
+const colour = '/transparent|none/';
 const number = '/[0-9]+[a-z]{0,}/';
 
 module.exports = {
@@ -98,12 +99,12 @@ module.exports = {
       {
         expandShorthand: true,
         ignoreValues: {
-          '/color/': colour,
-          'box-shadow': ['inset', number, colour],
-          'font-family': 'inherit',
-          'line-height': ['0', 'inherit'],
-          'text-shadow': [number, colour],
-          'z-index': '0'
+          '/color/': [keyword, colour],
+          'box-shadow': [keyword, colour, number, 'inset'],
+          'font-family': [keyword],
+          'line-height': [keyword, '0'],
+          'text-shadow': [keyword, colour, number],
+          'z-index': [keyword, '0']
         }
       }
     ]
