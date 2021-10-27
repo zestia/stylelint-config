@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.0
+
+- Stylelint 14 support
+
 ## 3.0.2
 
 - Ignore css keywords for rules that require a variable

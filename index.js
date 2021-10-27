@@ -17,16 +17,15 @@ module.exports = {
     'stylelint-prettier'
   ],
   extends: [
-    // Use the community Standard rule set
+    // Use the community Standard rule set for CSS
     'stylelint-config-standard',
+    // Use the community Standrd rule set for SCSS
+    'stylelint-config-standard-scss',
     // Turns off stylelint rules that could conflict with prettier
     'stylelint-prettier/recommended'
   ],
+  customSyntax: 'postcss-scss',
   rules: {
-    // Turn off stylelint unknown at-rules, because it doesn't know about scss ones (see below)
-    'at-rule-no-unknown': null,
-    // Prevent unknown scss at-rules (see above)
-    'scss/at-rule-no-unknown': true,
     // Enforce a consistent pattern for variable names
     'scss/dollar-variable-pattern': slug,
     // Enforce a consistent pattern for mixin names
@@ -73,8 +72,6 @@ module.exports = {
     'selector-class-pattern': [slug, { resolveNestedSelectors: true }],
     // Use a loose naming convention for ID selectors
     'selector-id-pattern': slug,
-    // Disallow vendor prefixes, these should be added by autoprefixer
-    'property-no-vendor-prefix': true,
     // Try to avoid complex selectors
     'selector-max-compound-selectors': 5,
     // No need to specify IDs, class names will suffice
@@ -83,8 +80,6 @@ module.exports = {
     'selector-max-type': 0,
     // Disallow styling everything at once
     'selector-max-universal': 0,
-    // No need to specify redundant values
-    'shorthand-property-no-redundant-values': true,
     // Enforce the use of a variable for these properties
     // to provide consistency.
     'scale-unlimited/declaration-strict-value': [
