@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.2
+
+- Revert changes from 4.0.1 [Issue closed](https://github.com/kimroen/ember-cli-autoprefixer/pull/74)
+
 ## 4.0.1
 
 - Ensure v8 of postcss [Issue](https://github.com/stylelint/stylelint/issues/5632#issuecomment-951601124)
