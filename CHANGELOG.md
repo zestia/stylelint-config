@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.1
+
+- Ensure v8 of postcss [Issue](https://github.com/stylelint/stylelint/issues/5632#issuecomment-951601124)
+
 ## 4.0.0
 
 - Stylelint 14 support
