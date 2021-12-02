@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.3
+
+- Upgrade dependencies
+
 ## 4.0.2
 
 - Revert changes from 4.0.1 [Issue closed](https://github.com/kimroen/ember-cli-autoprefixer/pull/74)
