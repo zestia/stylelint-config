@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.5
+
+- Add stylelint to peer deps
+
 ## 4.0.4
 
 - Move deps to peer deps
