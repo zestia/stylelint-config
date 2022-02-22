@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.4
+
+- Move deps to peer deps
+
 ## 4.0.3
 
 - Upgrade dependencies
