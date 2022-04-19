@@ -1,12 +1,9 @@
 # Changelog
 
-## 4.0.6
-
-- Upgrade dependencies
-
 ## 4.0.5
 
 - Add stylelint to peer deps
+- Upgrade dependencies
 
 ## 4.0.4
 
