@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.0
+
+- Remove conflicting css vs scss rules
+
 ## 4.0.6
 
 - Upgrade dependencies

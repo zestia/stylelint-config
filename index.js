@@ -17,9 +17,7 @@ module.exports = {
     'stylelint-prettier'
   ],
   extends: [
-    // Use the community Standard rule set for CSS
-    'stylelint-config-standard',
-    // Use the community Standard rule set for SCSS
+    // Use the community Standard rule set for both CSS and SCSS
     'stylelint-config-standard-scss',
     // Turns off stylelint rules that could conflict with prettier
     'stylelint-prettier/recommended'

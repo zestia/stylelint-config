@@ -34,8 +34,7 @@ npm run lint:css
 
 ## Notes
 
-- `stylelint-config-standard` for a set of community lint rules around best practices and catching errors in css
-- `stylelint-config-standard-scss` as above, but for scss
+- `stylelint-config-standard-scss` for a set of community lint rules around best practices and catching errors in scss
 - `stylelint-scss` for scss specific stylelint rules
 - `stylelint-prettier` adds prettier as a stylelint rule
 - `stylelint-config-prettier` for turning off stylelint rules that could conflict with prettier
