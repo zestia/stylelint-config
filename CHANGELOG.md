@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.1
+
+- Add `scss/function-no-unknown`
+
 ## 4.1.0
 
 - Remove conflicting css vs scss rules
