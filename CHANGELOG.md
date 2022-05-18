@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.2
+
+- Ensure rules are available by bumping `stylelint-scss` peer dep
+
 ## 4.1.1
 
 - Add `scss/function-no-unknown`
