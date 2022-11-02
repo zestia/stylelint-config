@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.4
+
+- Upgrade dependencies
+
 ## 4.1.3
 
 - Require a version of `stylelint-declaration-strict-value` that supports stylelint v14
