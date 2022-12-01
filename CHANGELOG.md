@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.5
+
+- Allow a colon in class names
+
 ## 4.1.4
 
 - Upgrade dependencies
