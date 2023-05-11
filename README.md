@@ -37,7 +37,6 @@ npm run lint:css
 - `stylelint-config-standard-scss` for a set of community lint rules around best practices and catching errors in scss
 - `stylelint-scss` for scss specific stylelint rules
 - `stylelint-prettier` adds prettier as a stylelint rule
-- `stylelint-config-prettier` for turning off stylelint rules that could conflict with prettier
 - `stylelint-selector-bem-pattern` for a bem-like naming convention
 - `stylelint-declaration-strict-value` to enforce variables (e.g. for a consistent colour palette etc)
 - `stylelint-order` to enforce the order of certain rules

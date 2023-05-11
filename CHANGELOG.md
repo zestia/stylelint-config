@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.0.0
+
+- Upgrade to stylelint 15
+
 ## 4.1.5
 
 - Allow a colon in class names
