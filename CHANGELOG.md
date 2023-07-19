@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.0.2
+
+- Update `@zestia` scoped packages
+
 ## 5.0.1
 
 - Re-release of 5.0.0 for testing publishing to GH instead of NPM
