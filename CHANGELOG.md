@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.0.1
+
+- Re-release of 5.0.0 for testing publishing to GH instead of NPM
+
 ## 5.0.0
 
 - Upgrade to stylelint 15
