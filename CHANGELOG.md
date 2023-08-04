@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.0
+
+- Upgrade dependencies
+
 ## 5.0.2
 
 - Update `@zestia` scoped packages
