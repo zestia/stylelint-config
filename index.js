@@ -25,7 +25,15 @@ module.exports = {
   customSyntax: 'postcss-scss',
   rules: {
     // Disallow unknown functions
-    'scss/function-no-unknown': true,
+    'scss/function-no-unknown': [
+      true,
+      {
+        ignoreFunctions: [
+          // Allow our own colour function
+          'colour'
+        ]
+      }
+    ],
     // Enforce a consistent pattern for variable names
     'scss/dollar-variable-pattern': slug,
     // Enforce a consistent pattern for mixin names
@@ -41,6 +49,8 @@ module.exports = {
     'color-no-hex': true,
     // There is always a better alternative to using !important
     'declaration-no-important': true,
+    // Prevent introducing unofficial colours by manipulating the official palette
+    'function-disallowed-list': ['/^color/'],
     // Deep nesting creates overly specified rules
     'max-nesting-depth': 3,
     // Enable me soon
@@ -80,6 +90,8 @@ module.exports = {
     'selector-max-type': 0,
     // Disallow styling everything at once
     'selector-max-universal': 0,
+    // Disallow -of-type rules (which are frequently misunderstood)
+    'selector-pseudo-class-disallowed-list': ['/of-type/'],
     // Enforce the use of a variable for these properties
     // to provide consistency.
     'scale-unlimited/declaration-strict-value': [
