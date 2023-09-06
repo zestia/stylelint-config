@@ -3,6 +3,7 @@
 ## 5.1.1
 
 - Disallow use of sass `color` functions to manipulate colour palettes
+- Update `stylelint-config-standard-scss`
 
 ## 5.1.0
 
