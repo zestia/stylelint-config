@@ -1,6 +1,6 @@
 # Changelog
 
-## 5.1.1
+## 5.2.0
 
 - Disallow use of sass `color` functions to manipulate colour palettes
 - Update `stylelint-config-standard-scss`
