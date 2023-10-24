@@ -10,6 +10,13 @@ The rules are based on community standards, with a few extra ones specific to Ze
 npm install --save-dev @zestia/stylelint-config
 ```
 
+Add the following to `~/.npmrc` to pull @zestia scoped packages from Github instead of NPM.
+
+```
+@zestia:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=<YOUR_GH_TOKEN>
+```
+
 ## Setup
 
 1. Create the following file `.stylelintrc.js`
