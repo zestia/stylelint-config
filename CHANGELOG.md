@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.1
+
+- Allow `normal` to be used instead of a variable
+
 ## 5.2.0
 
 - Disallow use of sass `color` functions to manipulate colour palettes
