@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.2
+
+- Permit use of white and black without referring to the official colour palette variables
+
 ## 5.2.1
 
 - Allow `normal` to be used instead of a variable

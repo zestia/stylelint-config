@@ -1,6 +1,6 @@
 const slug = '^[a-z0-9-_:]+$';
 const keyword = '/inherit|initial|revert|unset|normal/';
-const colour = '/transparent|none/';
+const colour = '/transparent|none|white|black/';
 const number = '/[0-9]+[a-z]{0,}/';
 
 module.exports = {
