@@ -1,5 +1,5 @@
 const slug = '^[a-z0-9-_:]+$';
-const keyword = '/inherit|initial|revert|unset|normal/';
+const keyword = '/auto|inherit|initial|revert|unset|normal/';
 const colour = '/transparent|none|white|black/';
 const number = '/[0-9]+[a-z]{0,}/';
 
@@ -66,7 +66,7 @@ module.exports = {
     ],
     // Use a loose BEM naming convention by @define'ing a namespace
     'plugin/selector-bem-pattern': {
-      componentName: slug,
+      preset: slug,
       componentSelectors: {
         initial: '^\\.{componentName}',
         combined: '.*'
@@ -93,6 +93,8 @@ module.exports = {
     'scale-unlimited/declaration-strict-value': [
       [
         '/color/', // background-color, border-color, color, etc.
+        '/margin/', // margin, margin-top etc.
+        '/padding/', // padding, padding-left etc.
         'box-shadow',
         'font-family',
         'line-height',
@@ -107,7 +109,9 @@ module.exports = {
           'font-family': [keyword],
           'line-height': [keyword, '0'],
           'text-shadow': [keyword, colour, number],
-          'z-index': [keyword, '0']
+          'z-index': [keyword, '0'],
+          '/margin/': [keyword, number],
+          '/padding/': [keyword, number]
         }
       }
     ]

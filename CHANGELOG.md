@@ -2,7 +2,9 @@
 
 ## 5.3.0
 
-- Disconect prettier from stylelint
+- Disconnect prettier from stylelint
+- Require variable for margin and padding for more consistent spacing
+- Slightly tighten BEM selector rule
 
 ## 5.2.2
 
