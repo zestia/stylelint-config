@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3.0
+
+- Disconect prettier from stylelint
+
 ## 5.2.2
 
 - Permit use of white and black without referring to the official colour palette variables

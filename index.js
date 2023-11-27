@@ -12,15 +12,11 @@ module.exports = {
     // For using a variable or function for certain rules
     'stylelint-declaration-strict-value',
     // For ordering of certain rules
-    'stylelint-order',
-    // For ensuring css is pretty
-    'stylelint-prettier'
+    'stylelint-order'
   ],
   extends: [
     // Use the community Standard rule set for both CSS and SCSS
-    'stylelint-config-standard-scss',
-    // Turns off stylelint rules that could conflict with prettier
-    'stylelint-prettier/recommended'
+    'stylelint-config-standard-scss'
   ],
   customSyntax: 'postcss-scss',
   rules: {
