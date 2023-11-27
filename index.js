@@ -66,7 +66,7 @@ module.exports = {
     ],
     // Use a loose BEM naming convention by @define'ing a namespace
     'plugin/selector-bem-pattern': {
-      preset: slug,
+      preset: 'bem',
       componentSelectors: {
         initial: '^\\.{componentName}',
         combined: '.*'
