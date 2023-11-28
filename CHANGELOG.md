@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3.1
+
+- Correct rule requiring variable for margin and padding which wasn't working
+
 ## 5.3.0
 
 - Disconnect prettier from stylelint

@@ -110,8 +110,8 @@ module.exports = {
           'line-height': [keyword, '0'],
           'text-shadow': [keyword, colour, number],
           'z-index': [keyword, '0'],
-          '/margin/': [keyword, number],
-          '/padding/': [keyword, number]
+          '/margin/': [keyword, '0'],
+          '/padding/': [keyword, '0']
         }
       }
     ]
