@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3.2
+
+- Leave it to the consumer to specify functions to ignore
+
 ## 5.3.1
 
 - Correct rule requiring variable for margin and padding which wasn't working

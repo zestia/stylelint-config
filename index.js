@@ -21,15 +21,7 @@ module.exports = {
   customSyntax: 'postcss-scss',
   rules: {
     // Disallow unknown functions
-    'scss/function-no-unknown': [
-      true,
-      {
-        ignoreFunctions: [
-          // Allow our own colour function
-          'colour'
-        ]
-      }
-    ],
+    'scss/function-no-unknown': true,
     // Enforce a consistent pattern for variable names
     'scss/dollar-variable-pattern': slug,
     // Enforce a consistent pattern for mixin names
