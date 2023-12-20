@@ -28,18 +28,18 @@
   },
   "homepage": "https://github.com/zestia/stylelint-config",
   "devDependencies": {
-    "@zestia/eslint-config": "^5.1.4",
-    "@zestia/prettier-config": "^1.2.2",
-    "release-it": "^16.1.3"
+    "@zestia/eslint-config": "^5.3.0",
+    "@zestia/prettier-config": "^1.3.1",
+    "release-it": "^17.0.1"
   },
   "peerDependencies": {
     "postcss-scss": "^4.0.0",
-    "stylelint": "^15.0.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-config-standard-scss": "^11.0.0",
-    "stylelint-declaration-strict-value": "^1.9.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-declaration-strict-value": "^1.10.4",
     "stylelint-order": "^6.0.0",
-    "stylelint-scss": "^5.0.0",
+    "stylelint-scss": "^6.0.0",
     "stylelint-selector-bem-pattern": "^3.0.0"
   }
 }

@@ -1,5 +1,9 @@
 # Changelog
 
+# 5.4.0
+
+- Upgrade stylelint requirement to 16
+
 ## 5.3.2
 
 - Leave it to the consumer to specify functions to ignore
