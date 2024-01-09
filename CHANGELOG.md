@@ -1,6 +1,6 @@
 # Changelog
 
-# 5.4.0
+## 6.0.0
 
 - Upgrade stylelint requirement to 16
 
