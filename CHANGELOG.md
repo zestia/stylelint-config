@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.1
+
+- Allow `import` keyword, for css but not scss
+
 ## 6.0.0
 
 - Upgrade stylelint requirement to 16

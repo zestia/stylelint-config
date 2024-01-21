@@ -29,9 +29,7 @@ module.exports = {
     // Disallow certain at rules
     'at-rule-disallowed-list': [
       // Disallow @extend in favour of @mixin
-      'extend',
-      // Disallow @import in favour of @use
-      'import'
+      'extend'
     ],
     // Colours should always reference a variable
     'color-no-hex': true,
