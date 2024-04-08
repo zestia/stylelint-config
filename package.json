@@ -30,7 +30,7 @@
   "devDependencies": {
     "@zestia/eslint-config": "^5.3.0",
     "@zestia/prettier-config": "^1.3.1",
-    "release-it": "^17.0.1"
+    "release-it": "^17.1.1"
   },
   "peerDependencies": {
     "postcss-scss": "^4.0.0",
@@ -40,6 +40,6 @@
     "stylelint-declaration-strict-value": "^1.10.4",
     "stylelint-order": "^6.0.0",
     "stylelint-scss": "^6.0.0",
-    "stylelint-selector-bem-pattern": "^3.0.0"
+    "stylelint-selector-bem-pattern": "^4.0.0"
   }
 }

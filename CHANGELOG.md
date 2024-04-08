@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.1.0
+
+- Update `stylelint-selector-bem-pattern`
+
 ## 6.0.1
 
 - Allow `import` keyword, for css but not scss
