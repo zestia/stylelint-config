@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.1.1
+
+- Ignore theme selector
+
 ## 6.1.0
 
 - Update `stylelint-selector-bem-pattern`

@@ -60,7 +60,8 @@ module.exports = {
       componentSelectors: {
         initial: '^\\.{componentName}',
         combined: '.*'
-      }
+      },
+      ignoreSelectors: "^\\[data-theme='.*'\\]$"
     },
     // Use a loose naming convention for animation keyframe names
     'keyframes-name-pattern': slug,
