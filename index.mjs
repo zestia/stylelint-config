@@ -3,7 +3,7 @@ const keyword = '/auto|inherit|initial|revert|unset|normal/';
 const colour = '/transparent|none|white|black/';
 const number = '/[0-9]+[a-z]{0,}/';
 
-module.exports = {
+export default {
   plugins: [
     // For scss specific stylelint rules
     'stylelint-scss',

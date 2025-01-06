@@ -19,12 +19,12 @@ Add the following to `~/.npmrc` to pull @zestia scoped packages from Github inst
 
 ## Setup
 
-1. Create the following file `.stylelintrc.js`
+1. Create the following file `stylelint.config.mjs`
 
    ```javascript
-   module.exports = {
-     extends: '@zestia/stylelint-config'
-   };
+   import zestia from '@zestia/stylelint-config';
+
+   export default zestia;
    ```
 
 2. Add the following to `scripts` in `package.json`

@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2.0
+
+- Move to mjs
+
 ## 6.1.1
 
 - Ignore theme selector
