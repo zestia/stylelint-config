@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2.1
+
+- Require `border-radius` variable
+
 ## 6.2.0
 
 - Move to mjs

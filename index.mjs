@@ -86,6 +86,7 @@ export default {
         '/color/', // background-color, border-color, color, etc.
         '/margin/', // margin, margin-top etc.
         '/padding/', // padding, padding-left etc.
+        'border-radius',
         'box-shadow',
         'font-family',
         'line-height',
@@ -100,6 +101,7 @@ export default {
           'font-family': [keyword],
           'line-height': [keyword, '0'],
           'text-shadow': [keyword, colour, number],
+          'border-radius': [keyword, '0'],
           'z-index': [keyword, '0'],
           '/margin/': [keyword, '0'],
           '/padding/': [keyword, '0']
