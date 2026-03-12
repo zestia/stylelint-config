@@ -5,27 +5,12 @@ const number = '/[0-9]+[a-z]{0,}/';
 
 export default {
   plugins: [
-    // For scss specific stylelint rules
-    'stylelint-scss',
     // For a loose BEM convention
     'stylelint-selector-bem-pattern',
     // For using a variable or function for certain rules
-    'stylelint-declaration-strict-value',
-    // For ordering of certain rules
-    'stylelint-order'
+    'stylelint-declaration-strict-value'
   ],
-  extends: [
-    // Use the community Standard rule set for both CSS and SCSS
-    'stylelint-config-standard-scss'
-  ],
-  customSyntax: 'postcss-scss',
   rules: {
-    // Disallow unknown functions
-    'scss/function-no-unknown': true,
-    // Enforce a consistent pattern for variable names
-    'scss/dollar-variable-pattern': slug,
-    // Enforce a consistent pattern for mixin names
-    'scss/at-mixin-pattern': slug,
     // Disallow certain at rules
     'at-rule-disallowed-list': [
       // Disallow @extend in favour of @mixin
@@ -35,33 +20,15 @@ export default {
     'color-no-hex': true,
     // There is always a better alternative to using !important
     'declaration-no-important': true,
-    // Prevent introducing unofficial colours by manipulating the official palette
-    'function-disallowed-list': ['/^color/'],
     // Deep nesting creates overly specified rules
     'max-nesting-depth': 3,
-    // Enable me soon
-    'no-descending-specificity': null,
-    // Make sure @ rules come at the beginning
-    'order/order': [
-      {
-        type: 'at-rule',
-        name: 'include'
-      },
-      {
-        type: 'at-rule',
-        name: 'include',
-        hasBlock: true
-      },
-      'declarations'
-    ],
     // Use a loose BEM naming convention by @define'ing a namespace
     'plugin/selector-bem-pattern': {
       preset: 'bem',
       componentSelectors: {
         initial: '^\\.{componentName}',
         combined: '.*'
-      },
-      ignoreSelectors: "^\\[data-theme='.*'\\]$"
+      }
     },
     // Use a loose naming convention for animation keyframe names
     'keyframes-name-pattern': slug,

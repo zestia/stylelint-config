@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.0
+
+- Remove scss
+
 ## 6.2.1
 
 - Require `border-radius` variable
