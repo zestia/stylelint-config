@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.1
+
+- Require variable for `gap`
+
 ## 7.0.0
 
 - Remove scss

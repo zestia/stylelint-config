@@ -53,6 +53,7 @@ export default {
         '/color/', // background-color, border-color, color, etc.
         '/margin/', // margin, margin-top etc.
         '/padding/', // padding, padding-left etc.
+        'gap',
         'border-radius',
         'box-shadow',
         'font-family',
